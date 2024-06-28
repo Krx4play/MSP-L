@@ -49,56 +49,11 @@
       },
       "region": "global",
       "tunnel_type": "minecraft-java"
-    },
-    {
-      "active": true,
-      "alloc": {
-        "data": {
-          "assigned_domain": "issue-cabinets.gl.at.ply.gg",
-          "assigned_srv": null,
-          "assignment": {
-            "type": "shared-ip"
-          },
-          "id": "f155d190-7948-4996-ad21-23484a960543",
-          "ip_hostname": "17.ip.gl.ply.gg",
-          "ip_type": "both",
-          "port_end": 3518,
-          "port_start": 3517,
-          "region": "global",
-          "static_ip4": "147.185.221.17",
-          "tunnel_ip": "2602:fbaf:0:1::11"
-        },
-        "status": "allocated"
-      },
-      "created_at": "2024-06-27T19:42:19.999162Z",
-      "disabled_reason": null,
-      "domain": null,
-      "expire_notice": null,
-      "firewall_id": null,
-      "id": "a391b3c5-89d5-4d79-b7d5-6bd9f7af87e7",
-      "name": "Minecraft Bedrock",
-      "origin": {
-        "data": {
-          "agent_id": "a8e43d22-e999-4bd2-9ba9-ed7dfd8b27c8",
-          "agent_name": "Sevr",
-          "local_ip": "127.0.0.1",
-          "local_port": 3517
-        },
-        "type": "agent"
-      },
-      "port_count": 1,
-      "port_type": "udp",
-      "ratelimit": {
-        "bytes_per_second": null,
-        "packets_per_second": null
-      },
-      "region": "global",
-      "tunnel_type": "minecraft-bedrock"
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 0,
+    "desired": 0
   }
 }
